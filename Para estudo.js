@@ -9,7 +9,7 @@ console.log(gerarProtocolo());
 nome = prompt ("Digite seu nome e sobrenome")
 idade = prompt("Qual sua idade ?");
 if (idade >= 18){
-    alert (`Parabéns ${nome}, você completou o seu cadastro e seu protocolo de acesso para agendamento de sua doação é ${gerarProtocolo()}`);
+    alert (`${nome}, você completou o seu cadastro e seu acesso para agendamento de sua doação será o protocolo ${gerarProtocolo()}`);
 }else{
-    alert("Você não tem idade mínima para realizar este processo");
+    alert(`${nome}, será necessário a presença do responsável legal no ato da doação, seu protocolo ${gerarPotocolo()}`);
 }
