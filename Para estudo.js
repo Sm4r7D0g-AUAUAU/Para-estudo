@@ -13,3 +13,4 @@ if (idade >= 18){
 }else{
     alert(`${nome}, será necessário a presença do responsável legal no ato da doação, seu protocolo ${gerarPotocolo()}`);
 }
+alert ("Agendamento realizado com sucesso!Solicitamos que compareça no dia e horário agendados. Caso não seja possível, entre em contato conosco por nossos telefones.Vir preferencialmente sem acompanhantes")
