@@ -1,4 +1,3 @@
-alert ("Bem vindo ao HEMOBR");
 let idade;
 let nome;
 function gerarProtocolo(){
